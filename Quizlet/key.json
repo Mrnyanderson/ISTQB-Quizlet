@@ -1,0 +1,815 @@
+[
+    {
+        "keyid":1,
+        "Option1": "as soon as the code is written.",
+        "Option2": "during the design stage.",
+        "Option3": "when the requirements have been formally documented.",
+        "Option4": "as soon as possible in the development life cycle.",
+        "CorrectAnswer": "4",
+        "Notes": "The earlier the better.",
+        "Question": "Software testing activities should start..."
+    },
+    {
+        "keyid":2,
+        "Option1": "Poor quality software ",
+        "Option2": "Poor software and poor testing ",
+        "Option3": "bad luck ",
+        "Option4": "insufficient time for testing",
+        "CorrectAnswer": "2",
+        "Notes": "Both inadequate testing and development effort allow faults to be found by users.",
+        "Question": "Faults found by users are due to:"
+
+    },
+    {
+        "keyid":3,
+        "Option1": "to show that system will work after release ",
+        "Option2": "to decide when the software is of sufficient quality to release ",
+        "Option3": "to find as many bugs as possible before release ",
+        "Option4": "to give information for a risk based decision about release",
+        "CorrectAnswer": "4",
+        "Notes": "If software is not reasonably ready for market, releasing can be delayed to fix issues.",
+        "Question": "What is the main reason for testing software before releasing it?"
+
+    },
+    {
+        "keyid":4,
+        "Option1": "Performance testing can be done during unit testing as well as during the testing of whole system ",
+        "Option2": "The acceptance test does not necessarily include a regression test",
+        "Option3": "Verification activities should not involve testers (reviews, inspections etc) ",
+        "Option4": "Test environments should be as similar to production environments as possible",
+        "CorrectAnswer": "3",
+        "Notes": "Testers should be involved in all testing efforts.",
+        "Question": "Which of the following statements is not true?"
+
+    },
+    {
+        "keyid":5,
+        "Option1": "As polite, constructive and helpful as possible.",
+        "Option2": "Firm about insisting that a bug is not a “feature” if it should be fixed.",
+        "Option3": "Diplomatic, sensitive to the way they may react to criticism.",
+        "Option4": "All of the above",
+        "CorrectAnswer": "4",
+        "Notes": "Testers need to be tactful, polite, and firm about the presense of a defect.",
+        "Question": "When reporting faults found to developers, testers should be:"
+
+    },
+    {
+        "keyid":6,
+        "Option1": "The most important tests first.",
+        "Option2": "The most difficult tests first(to allow maximum time for fixing).",
+        "Option3": "The easiest tests first(to give initial confidence).",
+        "Option4": "The order they are thought of.",
+        "CorrectAnswer": "1",
+        "Notes": "Tests should be prioritized in order to make the best use of the time available.",
+        "Question": "In which order should tests be run?"
+
+    },
+    {
+        "keyid":7,
+        "Option1": "The documentation is poor, so it takes longer to find out what the software is doing.",
+        "Option2": "Wages are rising.",
+        "Option3": "The  fault has been built into more documentation, code, tests, etc.",
+        "Option4": "None of the above.",
+        "CorrectAnswer": "3",
+        "Notes": "An error that is not caught early on will require more time/effort to remove from the final product/documents.",
+        "Question": "The later in the development life cycle a fault is discovered, the more expensive it is to fix. Why?"
+
+    },
+    {
+        "keyid":8,
+        "Option1": "Should be able to understand a functional specification or requirements document",
+        "Option2": "Should be able to understand the source code.",
+        "Option3": "Is highly motivated to find faults.",
+        "Option4": "Is creative to find the system’s weaknesses.",
+        "CorrectAnswer": "2",
+        "Notes": "Black box testing does not involve the use of source code.",
+        "Question": "Which is not true-The black box tester?"
+
+    },
+    {
+        "keyid":9,
+        "Option1": "A process for selecting test cases.",
+        "Option2": "A process for determining expected outputs.",
+        "Option3": "A way to measure the quality of software.",
+        "Option4": "A way to measure in a test plan what has to be done.",
+        "CorrectAnswer": "1",
+        "Notes": "Test design techniques are <b></i>used to derive test cases</b></i>.",
+        "Question": "A test design technique is"
+
+    },
+    {
+        "keyid":10,
+        "Option1": "Needs configuration management just like requirements, design and code.",
+        "Option2": "Should be newly constructed for each new version of the software.",
+        "Option3": "Is needed only until the software is released into production or use.",
+        "Option4": "Does not need to be documented and commented, as it does not form part of the released software system.",
+        "CorrectAnswer": "1",
+        "Notes": "All test assets require maintenance to keep providing benefits.",
+        "Question": " Testware (test cases, test datasets)..."
+
+    },
+    {
+        "keyid":1,
+        "Option1": "Only records defects.",
+        "Option2": "Is of limited value.",
+        "Option3": "Is a valuable source of project information during testing if it contains all incidents.",
+        "Option4": "Should be used only by the test team.",
+        "CorrectAnswer": "3",
+        "Notes": "If properly used, an indicent logging system provides many benefits.",
+        "Question": " An incident logging system..."
+    },
+    {
+        "keyid":1,
+        "Option1": "Reducing test time.",
+        "Option2": "No change.",
+        "Option3": "Increasing test time .",
+        "Option4": "Can’t say.",
+        "CorrectAnswer": "1",
+        "Notes": "Better development methods can reduce the time and effort required for performing testing.",
+        "Question": "Increasing the quality of the software, by better development methods, will affect the time needed for testing (the test phases) by:"
+    },    {
+        "keyid":1,
+        "Option1": "Has nothing to do with testing.",
+        "Option2": "Is a partial measure of test thoroughness.",
+        "Option3": "Branch coverage should be mandatory for all software.",
+        "Option4": "Can only be applied at unit or module testing, not at system testing.",
+        "CorrectAnswer": "2",
+        "Notes": "Coverage measurement can be used to measure the effectiveness of the testing effort.",
+        "Question": "Coverage measurement"
+    },    {
+        "keyid":1,
+        "Option1": "When time for testing has run out.",
+        "Option2": "When all planned tests have been run.",
+        "Option3": "When the test completion criteria have been met.",
+        "Option4": "When no faults have been found by the tests run.",
+        "CorrectAnswer": "3",
+        "Notes": "Testing should only be considered finished when the completion criteria has been met.",
+        "Question": "When should you stop testing?"
+    },    {
+        "keyid":1,
+        "Option1": "Component testing should be black box, system testing should be white box.",
+        "Option2": "If you find a lot of bugs in testing, you should not be very confident about the quality of software.",
+        "Option3": "The fewer bugs you find, the better your testing was.",
+        "Option4": "The more tests you run, the more bugs you will find.",
+        "CorrectAnswer": "2",
+        "Notes": "Many defects is a good indication of poor quality software, however, the inverse is not always true.",
+        "Question": "Which of the following is true?"
+    },    {
+        "keyid":1,
+        "Option1": "How well you know a particular technique.",
+        "Option2": "The objective of the test.",
+        "Option3": "How appropriate the technique is for testing the application.",
+        "Option4": "Whether there is a tool to support the technique.",
+        "CorrectAnswer": "2",
+        "Notes": "Testing teqchniques are heavily influenced by what the test is trying to achieve.",
+        "Question": "What is an important criterion in deciding what testing technique to use?"
+    },    {
+        "keyid":1,
+        "Option1": "1",
+        "Option2": "2",
+        "Option3": "3",
+        "Option4": "4",
+        "CorrectAnswer": "3",
+        "Notes": "Statement coverage is just the execution of every statement.",
+        "Question": "If the pseudo code below were a programming language ,how many tests are required to achieve 100% statement coverage? <br>1.If x=3 then<br>2.Display_messageX;<br>3.If y=2 then<br>4.Display_messageY;<br>5.Else<br>6.Display_messageZ;<br>7.Else<br>8.Display_messageZ;"
+    },    {
+        "keyid":1,
+        "Option1": "State-Transition.",
+        "Option2": "Usability.",
+        "Option3": "Performance.",
+        "Option4": "Security.",
+        "CorrectAnswer": "1",
+        "Notes": "State-Transition testing is a test of functional requirements.",
+        "Question": "Which of the following is NOT a type of non-functional test?"
+    },    {
+        "keyid":1,
+        "Option1": "State analysis.",
+        "Option2": "Coverage analysis.",
+        "Option3": "Dynamic analysis.",
+        "Option4": "Memory analysis.",
+        "CorrectAnswer": "3",
+        "Notes": "Dynamic analysis tools are used to monitor the amount of memory a running application is using.",
+        "Question": "Which of the following tools would you use to detect a memory leak?"
+    },    {
+        "keyid":1,
+        "Option1": "IEEE829",
+        "Option2": "IEEE610",
+        "Option3": "BS7925-1 ",
+        "Option4": "BS7925-2",
+        "CorrectAnswer": "2",
+        "Notes": "IEEE 610 is the <i>Standard Computer Dictionary</i>",
+        "Question": "Which of the following is NOT a standard related to testing?"
+    },    {
+        "keyid":1,
+        "Option1": "IEEE 829",
+        "Option2": "IEEE610",
+        "Option3": "BS7925-1",
+        "Option4": "BS7925-2",
+        "CorrectAnswer": "4",
+        "Notes": "BS7925-2 Is the <i>Software Component Testing Standard</i>. <br> BS7923-1 is the<i> Glossary of Software Testing Terms</i>.",
+        "Question": "Which of the following is the component test standard?"
+    },    {
+        "keyid":1,
+        "Option1": "Faults in program specifications are the most expensive to fix.",
+        "Option2": "Faults in code are the most expensive to fix. ",
+        "Option3": "Faults in requirements are the most expensive to fix ",
+        "Option4": "Faults in designs are the most expensive to fix.",
+        "CorrectAnswer": "3",
+        "Notes": "Requirements->Specifications->Design->Code <br> The earlier a fault is created, the more it costs to remove from the final product.",
+        "Question": " Which of the following statements are true?"
+    },    {
+        "keyid":1,
+        "Option1": "Design based",
+        "Option2": "Big-bang",
+        "Option3": "Bottom-up",
+        "Option4": "Top-down",
+        "CorrectAnswer": "1",
+        "Notes": "Design-based integration is not a strategy.",
+        "Question": "Which of the following is not the integration strategy?"
+    },    {
+        "keyid":1,
+        "Option1": "statement testing",
+        "Option2": "equivalence partitioning ",
+        "Option3": "error- guessing",
+        "Option4": "usability testing",
+        "CorrectAnswer": "2",
+        "Notes": "Statement testing is <i>white box</i>, equivalence partitioning is <i> black box</i>, error guessing is<i> exploratory</i> and<b> usability testing is not a strategy.</b>",
+        "Question": "Which of the following is a black box design technique?"
+    },    {
+        "keyid":1,
+        "Option1": "Large.",
+        "Option2": "Small.",
+        "Option3": "Difficult to write.",
+        "Option4": "Difficult to test.",
+        "CorrectAnswer": "4",
+        "Notes": "The more complex a program, the more difficult it is to test exhaustively.",
+        "Question": "A program with high cyclometic complexity is almost likely to be:"
+    },    {
+        "keyid":1,
+        "Option1": "Code inspection.",
+        "Option2": "Coverage analysis.",
+        "Option3": "Usability assessment.",
+        "Option4": "Installation test.",
+        "CorrectAnswer": "1",
+        "Notes": "Code inspection is used to test the code <i>without executing it</i>.",
+        "Question": "Which of the following is a static test?"
+    },    {
+        "keyid":1,
+        "Option1": "white box",
+        "Option2": "glass box",
+        "Option3": "structural",
+        "Option4": "functional",
+        "CorrectAnswer": "4",
+        "Notes": "Functional testing is <i>black box</i>, structural testing is<i>white box</i>.",
+        "Question": "<s>One of these things is not like the other:</s><br>Which of the following is the odd one out?"
+    },    {
+        "keyid":1,
+        "Option1": "10,11,21",
+        "Option2": "3,20,21 ",
+        "Option3": "3,10,22 ",
+        "Option4": "10,21,22",
+        "CorrectAnswer": "3",
+        "Notes": "There are 3 partitions:10>x, 10=<x<=21, and x>=21.",
+        "Question": "A program validates a numeric field as follows: <br> values less than 10 are rejected, values between 10 and 21 are accepted, values greater than or equal to 22 are rejected <br> Which of the following input values cover all of the equivalence partitions?"
+    },    {
+        "keyid":1,
+        "Option1": "9,10,11,22",
+        "Option2": "9,10,21,22",
+        "Option3": "10,11,21,22",
+        "Option4": "10,11,20,21",
+        "CorrectAnswer": "2",
+        "Notes": "There are 3 partitions:10>x, 10=<x<=21, and x>=21.",
+        "Question": "A program validates a numeric field as follows: <br> values less than 10 are rejected, values between 10 and 21 are accepted, values greater than or equal to 22 are rejected <br> which of the following covers the MOST boundary values?"
+    },    {
+        "keyid":2,
+        "Option1": "Data tester.",
+        "Option2": "Boundary tester.",
+        "Option3": "Capture/Playback.",
+        "Option4": "Output comparator.",
+        "CorrectAnswer": "3",
+        "Notes": "Capture/playback tools are frequently used in automating regression tests.",
+        "Question": "Which of the following tools would be involved in the automation of regression test?  "
+    },    {
+        "keyid":2,
+        "Option1": "Statement Coverage",
+        "Option2": "Pole Coverage",
+        "Option3": "Condition Coverage",
+        "Option4": "Path Coverage",
+        "CorrectAnswer": "2",
+        "Notes": "Contrary to what Google says, pole coverage is not a thing.",
+        "Question": "An incorrect form of Logic coverage is:"
+    },    {
+        "keyid":2,
+        "Option1": "Defects.",
+        "Option2": "Trends analysis.",
+        "Option3": "Test Effectiveness.",
+        "Option4": "Time Spent Testing.",
+        "CorrectAnswer": "3",
+        "Notes": "Code coverage is used to measure the effectiveness of the testing effort.",
+        "Question": "Code Coverage is used as a measure of what?"
+    },    {
+        "keyid":2,
+        "Option1": "An error condition hiding another error condition.",
+        "Option2": "Creating a test case which does not reveal a fault.",
+        "Option3": "Masking a fault by developer.",
+        "Option4": "Masking a fault by a tester.",
+        "CorrectAnswer": "1",
+        "Notes": "Fault masking is the act of a <i>defect hiding the presence of another defect.</i>",
+        "Question": "Fault Masking is:"
+    },    {
+        "keyid":2,
+        "Option1": "Functionality.",
+        "Option2": "Usability.",
+        "Option3": "Supportability.",
+        "Option4": "Maintainability.",
+        "CorrectAnswer": "3",
+        "Notes": "ISO9126 is the standard for software quality.",
+        "Question": "Which of the following is not a quality characteristic listed in ISO 9126 Standard?"
+    },    {
+        "keyid":2,
+        "Option1": "Lack of technical documentation.",
+        "Option2": "Lack of test tools on the market for developers.",
+        "Option3": "Lack of training.",
+        "Option4": "Lack of objectivity.",
+        "CorrectAnswer": "4",
+        "Notes": "Developers are biased towards their creations.",
+        "Question": "One Key reason why developers have difficulty testing their own work is a: "
+    },    {
+        "keyid":2,
+        "Option1": "Missing Statements.",
+        "Option2": "Unused Branches.",
+        "Option3": "Dead Code.",
+        "Option4": "Unused Statement.",
+        "CorrectAnswer": "1",
+        "Notes": "Statement coverage cannot check what is not provided.",
+        "Question": "Statement Coverage will not check for the following.  "
+    },    {
+        "keyid":2,
+        "Option1": "2",
+        "Option2": "3",
+        "Option3": "4",
+        "Option4": "5",
+        "CorrectAnswer": "2",
+        "Notes": "Complexity = number of edges - number of nodes + 2.",
+        "Question": "Given the Following program: <br>IF X <>= Z <br>THEN Statement 2;<br> END<br> McCabe’s Cyclomatic Complexity is :  "
+    },    {
+        "keyid":2,
+        "Option1": "Stub",
+        "Option2": "Driver",
+        "Option3": "Proxy",
+        "Option4": "None of the above",
+        "CorrectAnswer": "2",
+        "Notes": "Stubs replace a component, Drivers call a component,Proxies act as an intermediary.",
+        "Question": "To test a function, the programmer has to write a _________, which calls the function to be tested and passes it test data."
+    },    {
+        "keyid":2,
+        "Option1": "Job number one.",
+        "Option2": "Zero defects.",
+        "Option3": "Conformance to requirements.",
+        "Option4": "Work as designed.",
+        "CorrectAnswer": "3",
+        "Notes": "The most objective definition of quality is the ability to conform to requirements.",
+        "Question": "Pick the best definition of quality"
+    },    {
+        "keyid":2,
+        "Option1": " Is the same as equivalence partitioning tests ",
+        "Option2": " Test boundary conditions on, below and above the edges of input and output equivalence classes ",
+        "Option3": " Tests combinations of input circumstances",
+        "Option4": " Is used in white box testing strategy",
+        "CorrectAnswer": "2",
+        "Notes": "Boundary value testing is an expansion upon equivalence partitioning tests.",
+        "Question": "Boundary value testing..."
+    },    {
+        "keyid":2,
+        "Option1": "0,1900,2004,2005",
+        "Option2": "900, 2004",
+        "Option3": "1899,1900,2004,2005  ",
+        "Option4": "1899, 1900, 1901,2003,2004,2005",
+        "CorrectAnswer": "3",
+        "Notes": "There are two boundaries: x>=1900 and x<=2004.",
+        "Question": "An input field takes the year of birth between 1900 and 2004 The boundary values for testing this field are "
+    },    {
+        "keyid":2,
+        "Option1": "2 Test Cases  ",
+        "Option2": "3 Test Cases  ",
+        "Option3": "4 Test Cases  ",
+        "Option4": "Not achievable",
+        "CorrectAnswer": "1",
+        "Notes": "Statement coverage just requires the paths that execute a statement, not the paths that do not execute the statement.",
+        "Question": "How many test cases are necessary to cover all the possible sequences of statements (paths) for the following program fragment? Assume that the two conditions are independent of each other:<br> if (Condition 1) <br>then<br> statement 1 <br>else<br> statement 2<br> fi <br>if (Condition 2) <br>then <br>statement 3 fi"
+    },    {
+        "keyid":2,
+        "Option1": "Statement and branch testing ",
+        "Option2": "Usability testing",
+        "Option3": "Security testing ",
+        "Option4": "Performance testing",
+        "CorrectAnswer": "1",
+        "Notes": "Component testing frequently tests statements and decision branches.",
+        "Question": "A common test technique during component testing is:"
+    },    {
+        "keyid":2,
+        "Option1": "Takes minutes of the meeting.",
+        "Option2": "Mediates between people.",
+        "Option3": "Takes telephone calls.",
+        "Option4": "Writes the documents to be reviewed.",
+        "CorrectAnswer": "2",
+        "Notes": "Moderators exist to make sure everyone sees eye-to-eye.",
+        "Question": "In a review meeting a moderator is a person who:"
+    },    {
+        "keyid":2,
+        "Option1": "Requirements.",
+        "Option2": "Design.",
+        "Option3": "Code.",
+        "Option4": "Decision table.",
+        "CorrectAnswer": "1",
+        "Notes": "Acceptances tests are based on if the software meets the initial requirements.",
+        "Question": "Acceptance test cases are based on what? "
+    },    {
+        "keyid":2,
+        "Option1": "System testing and usability testing.",
+        "Option2": "Usability testing and system testing.",
+        "Option3": "Performance testing and system testing.",
+        "Option4": "Usability testing and Performance testing.",
+        "CorrectAnswer": "4",
+        "Notes": "Usability and performance are non-functional metrics.",
+        "Question": "Which one of the following are non-functional testing methods?"
+    },    {
+        "keyid":2,
+        "Option1": "Done by the Developer.",
+        "Option2": "Done by the Test Engineers.",
+        "Option3": "Done By Management.",
+        "Option4": "Done by an Entity Outside the Project’s sphere of influence.",
+        "CorrectAnswer": "D",
+        "Notes": "Independent means the task is done by someone that is not influenced by the company.",
+        "Question": "Independent Verification & Validation is..."
+    },    {
+        "keyid":2,
+        "Option1": "Defect prevention.",
+        "Option2": "Deliverable base-lining.",
+        "Option3": "Management reporting.",
+        "Option4": "None of the above.",
+        "CorrectAnswer": "2",
+        "Notes": "Deliverable base-lining is",
+        "Question": "Defect Management process does not include:"
+    },    {
+        "keyid":2,
+        "Option1": "2 is a valid reason; 1,3,4 & 5 are not.",
+        "Option2": "1,2,3,4 are valid reasons; 5 is not.",
+        "Option3": "1,2,3 are valid reasons; 4 & 5 are not.",
+        "Option4": "All of them are valid reasons for failure",
+        "CorrectAnswer": "4",
+        "Notes": "All of the factors could potentially cause a failure.",
+        "Question": "Which of the following could be a reason for a failure:<br>1)Testing fault<br>2)Software fault<br>3)Design fault<br>4)Environment Fault<br>5) Documentation Fault"
+    },    {
+        "keyid":2,
+        "Option1": "You shorten the time required for testing.",
+        "Option2": "You do the best testing in the time available.",
+        "Option3": "You do more effective testing.",
+        "Option4": "You find more faults.",
+        "CorrectAnswer": "2",
+        "Notes": "If only just the first top priority test is done, the best testing in the allocated time has been completed.",
+        "Question": "Test are prioritized so that:"
+    },    {
+        "keyid":2,
+        "Option1": "A small team to establish the best way to use the tool.",
+        "Option2": "Everyone who may eventually have some use for the tool.",
+        "Option3": "The independent testing team.",
+        "Option4": "The vendor contractor to write the initial scripts.",
+        "CorrectAnswer": "1",
+        "Notes": "New tools are initially used in a small <i>pilot project</i>, before mass use.",
+        "Question": "When a new testing tool is purchased, it should be used first by:"
+    },    {
+        "keyid":2,
+        "Option1": "Execution",
+        "Option2": "Design",
+        "Option3": "Planning",
+        "Option4": "Check Exit criteria completion",
+        "CorrectAnswer": "3",
+        "Notes": "If you find a fault in the plans, the fault will never be created in the first place.",
+        "Question": "During which test activity could faults be found most cost effectively?"
+    },    {
+        "keyid":2,
+        "Option1": "A goal is that no more failures will result from the remaining defects.",
+        "Option2": "A goal is to find as many failures as possible so that the cause of the failures can be identified and fixed.",
+        "Option3": "A goal is to eliminate as much as possible the causes of defects.",
+        "Option4": "A goal is to fulfill all requirements for testing that are defined in the project plan.",
+        "CorrectAnswer": "2",
+        "Notes": "notes",
+        "Question": "Which of the following statements contains a valid goal for a functional test set?"
+    },    {
+        "keyid":2,
+        "Option1": "It is led by a trained leader, uses formal entry and exit criteria and checklists.",
+        "Option2": "It is led by the author of the document to be inspected.",
+        "Option3": "It can only be used for reviewing design and code.",
+        "Option4": "It is led by the author, uses checklists, and collects data for improvement.",
+        "CorrectAnswer": "1",
+        "Notes": "Inspections keep the author away from the important positions, and have the most formal procedures.",
+        "Question": "What makes an inspection different from other review types?"
+    },    {
+        "keyid":2,
+        "Option1": "Because it is an industry standard.",
+        "Option2": "Because errors are frequently made during programming of the different cases near the ‘edges’ of the range of values.",
+        "Option3": "Because only equivalence classes that are equal from a functional point of view are considered in the test cases.",
+        "Option4": "Because the test object is tested under maximal load up to its performance limits.",
+        "CorrectAnswer": "2",
+        "Notes": "Boundary vallues are incorrectly implemented frequently. It's a safe bet to find defects when testing on boundary 'edges'.",
+        "Question": "Why does the boundary value analysis provide good test cases?"
+    },    {
+        "keyid":2,
+        "Option1": "100% Equivalence class coverage.",
+        "Option2": "100% Condition coverage and 100% Statement coverage.",
+        "Option3": "100% Statement coverage.",
+        "Option4": "100% Multiple condition coverage.",
+        "CorrectAnswer": "2",
+        "Notes": "100% branch coverage is equivalant to 100% condition/decision coverage, which also provides 100% statement coverage.",
+        "Question": "If a program is tested and 100% branch coverage is achieved, which of the following coverage criteria is then guaranteed to be achieved?"
+    },    {
+        "keyid":2,
+        "Option1": "Logic-based testing.",
+        "Option2": "Use-case-based testing.",
+        "Option3": "State transition testing.",
+        "Option4": "Systematic testing according to the V-model.",
+        "CorrectAnswer": "3",
+        "Notes": "State transition testing deals with the transition of states.",
+        "Question": "A defect management system shall keep track of the status of every defect registered and enforce the rules about changing these states. If your task is to test the status tracking, which method would be best?"
+    },    {
+        "keyid":2,
+        "Option1": "Both functional and non-functional requirements are to be tested.",
+        "Option2": "Only functional requirements are tested; non-functional requirements are validated in a review.",
+        "Option3": "Only non-functional requirements are tested; functional requirements are validated in a review.",
+        "Option4": "Only requirements which are listed in the specification document are to be tested.",
+        "CorrectAnswer": "1",
+        "Notes": "System testing tests non functional and functional aspects of an entire system.",
+        "Question": "In system testing...  "
+    },    {
+        "keyid":2,
+        "Option1": "I, II and III are correct.",
+        "Option2": "I is correct.",
+        "Option3": "I, III and IV are correct.",
+        "Option4": "I, II and IV are correct.",
+        "CorrectAnswer": "3",
+        "Notes": "Inegration testing is done <b><i>before system testing</i></b>",
+        "Question": "Integration testing has following characteristics:<br>I. It can be done in incremental manner<br>II. It is always done after system testing.<br>III. It includes functional tests.<br>IV. It includes non-functional tests."
+    },    {
+        "keyid":2,
+        "Option1": "A walkthrough does not follow a defined process.",
+        "Option2": "For a walkthrough individual preparation by the reviewers is optional.",
+        "Option3": "A walkthrough requires meeting.",
+        "Option4": "A walkthrough finds the causes of failures, while formal review finds the failures.",
+        "CorrectAnswer": "2",
+        "Notes": "A walkthrough is when the author provides a demonstration. Individuals typically don't need to prepare for a demonstration.",
+        "Question": "Which of the following activities differentiate a walkthrough from a formal review?"
+    },    {
+        "keyid":2,
+        "Option1": "Testing is good method to make there are not defects in the software.",
+        "Option2": "Verification and validation are not enough to get to know the quality of the software.",
+        "Option3": "Testing measures the quality of the software system and helps to increase the quality.",
+        "Option4": "Testing finds more defects than reviews and inspections.",
+        "CorrectAnswer": "3",
+        "Notes": "Testing is not a perfect process, but will assist in improving quality by some measure.",
+        "Question": "Why is testing necessary?"
+    },    {
+        "keyid":2,
+        "Option1": "Not enough qualified testers to complete the planned tests.",
+        "Option2": "Software delivery is behind schedule.",
+        "Option3": "Threat to a patient’s life.",
+        "Option4": "3rd party supplier does not supply as stipulated.",
+        "CorrectAnswer": "3",
+        "Notes": "The product being unsafe for customer use is a product risk.",
+        "Question": "Which of these risks is an example of a product risk?"
+    },    {
+        "keyid":2,
+        "Option1": "Static analysis tools produce statistics during program execution.",
+        "Option2": "Configuration management systems allow us to provide accurate defect statistics of different configurations.",
+        "Option3": "Stress testing tools examine the behavior of the test object at or beyond full load.",
+        "Option4": "Performance measurement tools can be used in all phases of software life-cycle.",
+        "CorrectAnswer": "3",
+        "Notes": "Stress testing is used to ensure the system works reliably near or above its expected limits.",
+        "Question": "Which of the following statements is correct?"
+    },    {
+        "keyid":2,
+        "Option1": "(I) through (III) are correct.",
+        "Option2": "All alternatives are correct.",
+        "Option3": "(II) and (V) are correct.",
+        "Option4": "(I), (III) and (V) are correct.",
+        "CorrectAnswer": "2",
+        "Notes": "All of those aspects can influence how testing is carried out.",
+        "Question": "Which of the following project inputs influence testing?<br>(I) Contractual requirements<br>(II) Legal requirements<br>(III) Industry standards<br>(IV) Application risk<br>(V) Project size"
+    },    {
+        "keyid":2,
+        "Option1": "Identification (Software and hardware) of the VCR",
+        "Option2": "Actual result",
+        "Option3": "History of the report",
+        "Option4": "Ideas for the test case improvement",
+        "CorrectAnswer": "1",
+        "Notes": "The report doesn't specify what kind of hardware or software was being used during the test.",
+        "Question": "A test engineer is testing a Video Player (VCR), and logs the following report:<br>Title: Fast Forward stops after 2 minutes. It happens every time<br>Expected result: Fast forward continues till the end of the tape<br>Severity: High<br>Priority: Urgent"
+    },    {
+        "keyid":2,
+        "Option1": "Testing management.",
+        "Option2": "Synonym of testing the quality of service.",
+        "Option3": "Triggered by modifications, migration or retirement of existing software.",
+        "Option4": "Testing the level of maintenance by the vendor.",
+        "CorrectAnswer": "3",
+        "Notes": "Once a product is released, it is <i>considered to be under Maintenance until <b>its End of Life.</b></i>",
+        "Question": "Maintenance testing is: "
+    },    {
+        "keyid":2,
+        "Option1": "Incremental integration has better early defects screening and isolation ability.",
+        "Option2": "'Big bang' integration is suitable only for real time applications.",
+        "Option3": "Incremental integration is preferred over 'Big Bang Integration' only for 'bottom up' development model.",
+        "Option4": "Incremental integration can compensate for weak and inadequate component testing.",
+        "CorrectAnswer": "1",
+        "Notes": "Integrating in increments makes it easier to pinpoint which module has a defect.",
+        "Question": "Why is incremental integration preferred over 'big bang' integration?"
+    },    {
+        "keyid":2,
+        "Option1": "A software development model that illustrates how testing activities integrate with software development phases.",
+        "Option2": "A software life-cycle model that is not relevant for testing.",
+        "Option3": "The official software development and testing life-cycle model of ISTQB.",
+        "Option4": "A testing life cycle model including unit, integration, system and acceptance phases.",
+        "CorrectAnswer": "1",
+        "Notes": "The V-model is used to display the corresponding testing and development phases",
+        "Question": "V-Model is: "
+    },    {
+        "keyid":2,
+        "Option1": "The version number of the test object.",
+        "Option2": "Test data and used environment.",
+        "Option3": "Identification of the test case that failed.",
+        "Option4": "The location and instructions on how to correct the fault.",
+        "CorrectAnswer": "4",
+        "Notes": "Testing identifies the presence of defects, debugging is what removes them.",
+        "Question": "Which of the following items need not to be given in an incident report?"
+    },    {
+        "keyid":2,
+        "Option1": "Network.",
+        "Option2": "Operational model.",
+        "Option3": "Boundary value analysis.",
+        "Option4": "Test procedure planning.",
+        "CorrectAnswer": "4",
+        "Notes": "Planning test data coincides with planning test procedures.",
+        "Question": "Test data planning essentially includes:"
+    },    {
+        "keyid":2,
+        "Option1": "Testing performed on a single stand – alone module or unit of code.",
+        "Option2": "Testing after changes have been made to ensure that no unwanted changes were introduced.",
+        "Option3": "Testing to ensure that the system meets the needs of the organization and end user.",
+        "Option4": "Users test the application in the developers environment",
+        "CorrectAnswer": "3",
+        "Notes": "Acceptance testing is done to ensure the product meets user needs/requirements.",
+        "Question": "Acceptance testing means:"
+    },    {
+        "keyid":2,
+        "Option1": "System",
+        "Option2": "Integration",
+        "Option3": "Component",
+        "Option4": "Maintenance",
+        "CorrectAnswer": "4",
+        "Notes": "Maintenance testing is performed after changes to production environments or versions of the released software.",
+        "Question": "The _______ testing should include operational tests of the new environment as well as of the changed software."
+    },    {
+        "keyid":2,
+        "Option1": "Testing performed by potential customers at the developers location.",
+        "Option2": "Testing performed by potential customers at their own locations.",
+        "Option3": "Testing performed by product developers at the customer's location.",
+        "Option4": "Testing performed by product developers at their own locations.",
+        "CorrectAnswer": "2",
+        "Notes": "Think of video games, beta testers are typically customers testing from their homes.",
+        "Question": "What is beta testing?"
+    },    {
+        "keyid":2,
+        "Option1": "True.",
+        "Option2": "False.",
+        "Option3": "None of the above.",
+        "Option4": "All of the above.",
+        "CorrectAnswer": "1",
+        "Notes": "The earlier you look for risks, the sooner they can be mitigated.",
+        "Question": "A risk-based approach to testing provides proactive opportunities to reduce the levels of product risk, starting in the initial stages of a project."
+    },    {
+        "keyid":2,
+        "Option1": "3",
+        "Option2": "4",
+        "Option3": "2",
+        "Option4": "1",
+        "CorrectAnswer": "2",
+        "Notes": "Decision coverage involves cases for conditional and unconditional branches.",
+        "Question": "Given the following fragment of code, how many tests are required for 100% decision coverage?<br>if width > length<br>then<br>biggest_dimension = width<br>if height > width<br>then<br>biggest_dimension = height<br>end_if<br>else biggest_dimension= length<br>if height > length<br>then<br>biggest_dimension = height<br>end_if<br>end_if"
+    },    {
+        "keyid":2,
+        "Option1": "One more test case will be required for 100 % decision coverage.",
+        "Option2": "Two more test cases will be required for 100 % statement coverage, and 100% decision coverage.",
+        "Option3": "None, existing test cases can be used.",
+        "Option4": "One more test case will be required for 100% statement coverage.",
+        "CorrectAnswer": "3",
+        "Notes": "The new code doesn't affect the existing decision structures.",
+        "Question": "You have designed test cases to provide 100% statement and 100% decision coverage for the following fragment of code.<br>if width > length<br>then<br>biggest_dimension = width<br>else<br>biggest_dimension = length<br>end_if<br>The following has been added to the bottom of the code fragment above.<br>print 'Biggest dimension is ' & biggest_dimension<br>print 'Width: ' & width<br>print 'Length: ' & length<br>How many more test cases are required?"
+    },    {
+        "keyid":2,
+        "Option1": "15, 19 and 25.",
+        "Option2": "17, 18 and 19.",
+        "Option3": "18, 20 and 22.",
+        "Option4": "16, 26 and 32.",
+        "CorrectAnswer": "1",
+        "Notes": "The equivalence partitions are x<18, 18<=x>21, x<=21",
+        "Question": "A thermometer measures temperature in whole degrees only. If the temperature falls below 18 degrees, the heating is switched off. It is switched on again when the temperature reaches 21 degrees. What are the best values in degrees to cover all equivalence partitions?"
+    },    {
+        "keyid":2,
+        "Option1": "Implementation and execution.",
+        "Option2": "Planning and control.",
+        "Option3": "Analysis and design. ",
+        "Option4": "Test closure.",
+        "CorrectAnswer": "1",
+        "Notes": "Test suites are assembled during <i>test implementation.</i>",
+        "Question": "Which activity in the fundamental test process creates test suites for efficient test execution?"
+    },    {
+        "keyid":2,
+        "Option1": "Confirmation testing is testing fixes to a set of defects and Regression testing is testing to establish whether any defects have been introduced as a result of changes.",
+        "Option2": "Confirmation testing is testing to establish whether any defects have been introduced as a result of changes and Regression testing is testing fixes to a set of defects.",
+        "Option3": "Confirmation testing and Regression testing are both testing to establish whether any defects have been introduced as a result of changes.",
+        "Option4": "Confirmation testing and Regression testing are both testing fixes to a set of defects.",
+        "CorrectAnswer": "1",
+        "Notes": "Confirmation testing is performed to ensure defects are fixed, regression testing is performed to ensure existing functionality is not changed as a result of fixes.",
+        "Question": "Which of the following is <i><b>true</b></i>? "
+    },    {
+        "keyid":2,
+        "Option1": "During test planning.",
+        "Option2": "During test analysis. ",
+        "Option3": "During test execution.",
+        "Option4": "When evaluating exit criteria",
+        "CorrectAnswer": "1",
+        "Notes": "notes",
+        "Question": "When should configuration management procedures be implemented? "
+    },    {
+        "keyid":2,
+        "Option1": "ii and iv.",
+        "Option2": "ii and iii.",
+        "Option3": "i, iii and iv.",
+        "Option4": "iii.",
+        "CorrectAnswer": "2",
+        "Notes": "Regression testing is used after changes to ensure fixes didn't break existing functionality. Due to its tedious nature, it is frequently automated to save time/effort/money.",
+        "Question": "Which of the following are characteristic of regression testing?<br>i) Regression testing is run ONLY once.<br>ii) Regression testing is used after fixes have been made.<br>iii) Regression testing is often automated.<br>iv) Regression tests need not be maintained."
+    },    {
+        "keyid":2,
+        "Option1": "5, 6, 20",
+        "Option2": "4, 5, 80",
+        "Option3": "4, 5, 99",
+        "Option4": "1, 20, 100",
+        "CorrectAnswer": "3",
+        "Notes": "4,5 and 99 cover 3/4 boundary values listed, but 3/3 of the listed equivalence partition.",
+        "Question": "A wholesaler sells printer cartridges. The minimum order quantity is 5. There is a 20% discount for orders of 100 or more printer cartridges. You have been asked to prepare test cases using various values for the number of printer cartridges orders. Which of the following groups contain three test inputs that would be generated using Boundary Value Analysis?"
+    },    {
+        "keyid":2,
+        "Option1": "i, ii, iii.",
+        "Option2": "ii, iii, iv. ",
+        "Option3": "i, iii, iv.",
+        "Option4": "i, ii, iv.",
+        "CorrectAnswer": "4",
+        "Notes": "When selecting a test tool, research must be made before implementation, as incorrect implementation/use of a tool can be a hinderance to the project.",
+        "Question": "Which of the following activities should be performed during the selection and implementation of a testing tool?<br>i) Investigate the organization’s test process.<br>ii) Conduct a proof of concept.<br>iii) Implement the selected tool on a project behind schedule to save time.<br>iv) Identify coaching and mentoring requirements for the use of the selected tool."
+    },    {
+        "keyid":2,
+        "Option1": "It is cheaper than designing tests during the test phases",
+        "Option2": "It helps prevent defects from being introduced into the code.",
+        "Option3": "Tests designed early are more effective than tests designed later.",
+        "Option4": "It saves time during the testing phases when testers are busy.",
+        "CorrectAnswer": "2",
+        "Notes": "notes",
+        "Question": "What is the MAIN benefit of designing tests early in the life cycle?  "
+    },    {
+        "keyid":2,
+        "Option1": "ii and iv.",
+        "Option2": "ii and iii.",
+        "Option3": "i and iv.",
+        "Option4": "i and iii.",
+        "CorrectAnswer": "3",
+        "Notes": "Test tools will require more maintenance, and are very expensive to implement, however, their benefits will pay off after a period of time.",
+        "Question": "Which of the following benefits are MOST likely to be achieved by using test tools? i) Easy to access information about tests and testing. ii) Reduced maintenance of testware. iii) Easy and cheap to implement. iv) Greater consistency of tests."
+    },    {
+        "keyid":2,
+        "Option1": "Preventative tests and reactive tests are designed as early as possible.",
+        "Option2": "Preventative tests are designed early; reactive tests are designed after the software has been produced.",
+        "Option3": "Preventative testing is always analytical; reactive testing is always heuristic.",
+        "Option4": "Preventative tests are designed after the software has been produced; reactive tests are designed early in response to review comments.",
+        "CorrectAnswer": "2",
+        "Notes": "Preventative tests are designed to prevent defects, reactive tests are reacting to a situation in progress.",
+        "Question": "What is the KEY difference between preventative and reactive approaches to testing?"
+    },    {
+        "keyid":2,
+        "Option1": "To define when a test level is complete.",
+        "Option2": "To determine when a test has completed.",
+        "Option3": "To identify when a software system should be retired.",
+        "Option4": "To determine whether a test has passed.",
+        "CorrectAnswer": "1",
+        "Notes": "Exit criteria is used to ensure the product is ready to move on to the next stage.",
+        "Question": "What is the purpose of exit criteria? "
+    },    {
+        "keyid":2,
+        "Option1": "The cost of dealing with an adverse event if it occurs.",
+        "Option2": "The probability that an adverse event will occur.",
+        "Option3": "The amount of testing planned before release of a system.",
+        "Option4": "The likelihood of an adverse event and the impact of the event.",
+        "CorrectAnswer": "4",
+        "Notes": "Risk is determined by the probability of a negative event happening multiplied by the impact if it occurs.",
+        "Question": "What determines the level of risk?"
+    }
+]
