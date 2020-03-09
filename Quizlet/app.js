@@ -6,6 +6,7 @@ let submissionlist = new Array();
 let deck = new Array();
 let answervalue = null;
 let qID = 0;
+
 const load = `<div class="card" style="padding:25px;"> <h2>Loading...</h2></div>`
 const generror = `<div class="card"style="padding:25px;"> <h2>Unable to generate additional questions</h2></div>`
 const mainitem = document.querySelector(".quizlet");

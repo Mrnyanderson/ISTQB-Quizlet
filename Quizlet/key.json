@@ -449,7 +449,7 @@
         "Option3": "Management reporting.",
         "Option4": "None of the above.",
         "CorrectAnswer": "2",
-        "Notes": "Deliverable base-lining is",
+        "Notes": "Deliverable base-lining is part of the development process. Think of them as milestones.",
         "Question": "Defect Management process does not include:"
     },    {
         "keyid":2,
@@ -494,7 +494,7 @@
         "Option3": "A goal is to eliminate as much as possible the causes of defects.",
         "Option4": "A goal is to fulfill all requirements for testing that are defined in the project plan.",
         "CorrectAnswer": "2",
-        "Notes": "notes",
+        "Notes": "Test sets cannot find 100% of defects, nor can they remove the cause of defects, they can only identify as many failures as they possibly can.",
         "Question": "Which of the following statements contains a valid goal for a functional test set?"
     },    {
         "keyid":2,
@@ -737,7 +737,7 @@
         "Option3": "During test execution.",
         "Option4": "When evaluating exit criteria",
         "CorrectAnswer": "1",
-        "Notes": "notes",
+        "Notes": "The earlier configuration management is implemented, the more benefits it can provide.",
         "Question": "When should configuration management procedures be implemented? "
     },    {
         "keyid":2,
@@ -773,7 +773,7 @@
         "Option3": "Tests designed early are more effective than tests designed later.",
         "Option4": "It saves time during the testing phases when testers are busy.",
         "CorrectAnswer": "2",
-        "Notes": "notes",
+        "Notes": "The main benefit of designing tests early is that defects are caught earlier are not carried through the development process.",
         "Question": "What is the MAIN benefit of designing tests early in the life cycle?  "
     },    {
         "keyid":2,
