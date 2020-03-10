@@ -6,8 +6,9 @@ let submissionlist = new Array();
 let deck = new Array();
 let answervalue = null;
 let qID = 0;
-
+let firsttry = true;
 const load = `<div class="card" style="padding:25px;"> <h2>Loading...</h2></div>`
+const fin = `<div class="card"style="padding:25px;"> <h2>Congratulations, you've answered every question correctly!</h2></div>`
 const generror = `<div class="card"style="padding:25px;"> <h2>Unable to generate additional questions</h2></div>`
 const mainitem = document.querySelector(".quizlet");
 const subitem = document.querySelector(".ak");
@@ -20,12 +21,13 @@ function quizInit(){
     let pullAnswers = new Promise((resolve, reject) => { 
     const xhr = new XMLHttpRequest();
     
-    xhr.open("GET","key.json",true);
+    xhr.open("GET","key.json",false);
     xhr.onload = function(){
-
-        console.log("status",this.status);
-        if (this.status === 200){
+        //alert(window.location.href);
+        //console.log("status",this.status);
+        if (this.status === 200 || this.status === 0){
             //alert("success");
+            
             const answerresponse = JSON.parse(this.responseText);
             answerresponse.forEach(function(questioninfo){
                 //alert(questioninfo);
@@ -33,6 +35,7 @@ function quizInit(){
             });
             resolve(answerlist.length);
         }
+        //else {alert(this.status);}
   
 
     }
@@ -44,14 +47,14 @@ function quizInit(){
     pullAnswers.then(function(){
     //alert(answerlist.length);
     alist = document.querySelector(".inputs");
-    alert(alist);
+    //alert(alist);
     initdeck();
     mainitem.innerHTML = determinequestion();
       
     document.querySelector(".nextquestion").addEventListener("click",next)
  
 });
-console.log(answerlist);
+//console.log(answerlist);
 }
 function initdeck(){
     for (j=0; j<answerlist.length; j++){
@@ -82,7 +85,10 @@ function next(e){
         document.querySelector(".nextquestion").hidden="true";
         alist.innerHTML += `<li style="background-color:mediumturquoise;">${answervalue}</li>`;
         alist.innerHTML +=  `<ul style="list-style-type:circle;"><li style="background-color: cornflowerblue;">${answerlist[qID][6]}</li></ul>`
-        deck.splice(qID,1);
+        //alert (firsttry);
+        if (firsttry == true){
+            deck.splice(qID,1);
+        } 
         setTimeout(function(){
             mainitem.innerHTML = load; 
             //alert(answervalue);
@@ -101,6 +107,7 @@ function next(e){
         },2000);
         }else{
             alert("Try again");
+            firsttry = false;
             if (!alist.innerHTML.includes(`<li style="background-color:maroon;">${answervalue}</li>`)){
             alist.innerHTML+= `<li style="background-color:maroon;">${answervalue}</li>`
             }
@@ -109,11 +116,12 @@ function next(e){
     }
 }
 function determinequestion(){
+    firsttry = true;
     console.log("deck",deck);
     qID = parseInt(Math.random()*deck.length);
     console.log("QID",qID);
     if (deck.length == 0){
-        return generror;
+        return fin;
     }else
     {
     if (deck.length >=1 & deck.indexOf(deck[qID]) != -1)
