@@ -439,7 +439,7 @@
         "Option2": "Done by the Test Engineers.",
         "Option3": "Done By Management.",
         "Option4": "Done by an Entity Outside the Project’s sphere of influence.",
-        "CorrectAnswer": "D",
+        "CorrectAnswer": "4",
         "Notes": "Independent means the task is done by someone that is not influenced by the company.",
         "Question": "Independent Verification & Validation is..."
     },    {
