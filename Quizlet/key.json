@@ -810,7 +810,7 @@
         "Option4": "The likelihood of an adverse event and the impact of the event.",
         "CorrectAnswer": "4",
         "Notes": "Risk is determined by the probability of a negative event happening multiplied by the impact if it occurs.",
-        "Question": "What determines the level of risk?"
+        "Question": "What determines the level of risk?" 
     }
 
     
