@@ -94,7 +94,7 @@
         "Option4": "A way to measure in a test plan what has to be done.",
         "CorrectAnswer": "1",
         "Notes": "Test design techniques are <b></i>used to derive test cases</b></i>.",
-        "Question": "A test design technique is"
+        "Question": "A test design technique is:"
 
     },
     {
@@ -197,7 +197,7 @@
         "Option3": "BS7925-1 ",
         "Option4": "BS7925-2",
         "CorrectAnswer": "2",
-        "Notes": "IEEE 610 is the <i>Standard Computer Dictionary</i>",
+        "Notes": "IEEE 610 is the <i>Standard Computer Dictionary</i>.",
         "Question": "Which of the following is NOT a standard related to testing?"
     },    {
         "keyid":1,
@@ -233,7 +233,7 @@
         "Option3": "error- guessing",
         "Option4": "usability testing",
         "CorrectAnswer": "2",
-        "Notes": "Statement testing is <i>white box</i>, equivalence partitioning is <i> black box</i>, error guessing is<i> exploratory</i> and<b> usability testing is not a strategy.</b>",
+        "Notes": "Statement testing is <i>white box</i>, equivalence partitioning is <i>black box</i>, error guessing is <i>exploratory</i> and <b>usability testing is not a strategy</b>.",
         "Question": "Which of the following is a black box design technique?"
     },    {
         "keyid":1,
@@ -260,8 +260,8 @@
         "Option3": "structural",
         "Option4": "functional",
         "CorrectAnswer": "4",
-        "Notes": "Functional testing is <i>black box</i>, structural testing is<i>white box</i>.",
-        "Question": "<s>One of these things is not like the other:</s><br>Which of the following is the odd one out?"
+        "Notes": "Functional testing is <i>black box</i>, structural testing is<i> white box</i>.",
+        "Question": "<s>One of these things is not like the other: </s> <br>Which of the following is the odd one out?"
     },    {
         "keyid":1,
         "Option1": "10,11,21",
@@ -314,7 +314,7 @@
         "Option3": "Masking a fault by developer.",
         "Option4": "Masking a fault by a tester.",
         "CorrectAnswer": "1",
-        "Notes": "Fault masking is the act of a <i>defect hiding the presence of another defect.</i>",
+        "Notes": "Fault masking is the act of a <i>defect hiding the presence of another defect</i>.",
         "Question": "Fault Masking is:"
     },    {
         "keyid":2,
@@ -548,7 +548,7 @@
         "Option3": "I, III and IV are correct.",
         "Option4": "I, II and IV are correct.",
         "CorrectAnswer": "3",
-        "Notes": "Inegration testing is done <b><i>before system testing</i></b>",
+        "Notes": "Inegration testing is done <b><i>before system testing</i></b>.",
         "Question": "Integration testing has following characteristics:<br>I. It can be done in incremental manner<br>II. It is always done after system testing.<br>III. It includes functional tests.<br>IV. It includes non-functional tests."
     },    {
         "keyid":2,
@@ -611,7 +611,7 @@
         "Option3": "Triggered by modifications, migration or retirement of existing software.",
         "Option4": "Testing the level of maintenance by the vendor.",
         "CorrectAnswer": "3",
-        "Notes": "Once a product is released, it is <i>considered to be under Maintenance until <b>its End of Life.</b></i>",
+        "Notes": "Once a product is released, it is <i>considered to be under Maintenance until its <b>End of Life</b></i>.",
         "Question": "Maintenance testing is: "
     },    {
         "keyid":2,
@@ -719,7 +719,7 @@
         "Option3": "Analysis and design. ",
         "Option4": "Test closure.",
         "CorrectAnswer": "1",
-        "Notes": "Test suites are assembled during <i>test implementation.</i>",
+        "Notes": "Test suites are assembled during <i>test implementation</i>.",
         "Question": "Which activity in the fundamental test process creates test suites for efficient test execution?"
     },    {
         "keyid":2,
