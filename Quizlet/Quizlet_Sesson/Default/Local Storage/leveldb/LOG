@@ -1,0 +1,6 @@
+2020/03/10-14:45:50.024 12790 Reusing MANIFEST C:\Users\apayette\Quizlet\ISTQB-Quizlet\Quizlet\Quizlet_Sesson\Default\Local Storage\leveldb/MANIFEST-000001
+2020/03/10-14:45:50.025 12790 Recovering log #3
+2020/03/10-14:45:50.026 12790 Reusing old log C:\Users\apayette\Quizlet\ISTQB-Quizlet\Quizlet\Quizlet_Sesson\Default\Local Storage\leveldb/000003.log 
+2020/03/10-14:46:05.134 118e4 Level-0 table #5: started
+2020/03/10-14:46:05.221 118e4 Level-0 table #5: 6437 bytes OK
+2020/03/10-14:46:05.263 118e4 Delete type=0 #3

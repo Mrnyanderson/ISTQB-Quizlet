@@ -812,7 +812,7 @@
         "Notes": "Risk is determined by the probability of a negative event happening multiplied by the impact if it occurs.",
         "Question": "What determines the level of risk?" 
     },
-{"keyid":1,
+{   "keyid":1,
         "Option1": "ii, iv and v. ",
         "Option2": "ii, iii and iv.  ",
         "Option3": "i, ii and iv. ",
@@ -882,7 +882,7 @@
         "Option4": "ii. and iii. are more for developers. ",
         "CorrectAnswer": "2",
         "Notes": "",
-        "Question": "Some tools are geared more for developer use. For the 5 tools listed, which statement BEST details those for developers. <br>i)	Performance testing tools. <br>ii)	Coverage measurement tools. <br>iii)	Test comparators. <br>iv)	Dynamic analysis tools. <br> v) Incident management tools. "
+        "Question": "Some tools are geared more for developer use. For the 5 tools listed, which statement BEST details those for developers.<br>i)Performance testing tools.<br>ii) Coverage measurement tools.<br>iii) Test comparators.<br>iv) Dynamic analysis tools.<br>v) Incident management tools."
 },		
 {"keyid":1,
         "Option1": "Impact analysis assesses the effect on the system of a defect found in regression testing.  ",
@@ -963,7 +963,7 @@
         "Option4": "iii.",
         "CorrectAnswer": "2",
         "Notes": "",
-        "Question": "Which of the following are characteristic of regression testing ?  <br>i)	Regression testing is run ONLY once <br>ii)	Regression testing is used after fixes have been made  <br>iii)	Regression testing is often automated <br>iv)	Regression tests need not be maintained "
+        "Question": "Which of the following are characteristic of regression testing?<br>i) Regression testing is run ONLY once.<br>ii) Regression testing is used after fixes have been made.<br>iii) Regression testing is often automated.<br>iv) Regression tests need not be maintained."
 },
 {"keyid":1,
         "Option1": "5, 6, 20",
@@ -981,8 +981,7 @@
         "Option4": "i, ii, iv.",
         "CorrectAnswer": "4",
         "Notes": "",
-        "Question": "Which of the following activities should be performed during the selection and implementation of a testing tool?  <br>i)	Investigate the organisation's test process.<br>ii)	Conduct a proof of concept. <br>iii)	Implement the selected tool on a project behind schedule to save time.  <br>iv)	Identify coaching and mentoring requirements for the use of the selected tool."
-},
+        "Question": "Which of the following activities should be performed during the selection and implementation of a testing tool?<br>i) Investigate the organisation's test process.<br>ii) Conduct a proof of concept.<br>iii)Implement the selected tool on a project behind schedule to save time.<br>iv) Identify coaching and mentoring requirements for the use of the selected tool."},
 {"keyid":1,
         "Option1": "It is cheaper than designing tests during the test phases.",
         "Option2": "It helps prevent defects from being introduced into the code.",
@@ -999,7 +998,7 @@
         "Option4": "i and iii",
         "CorrectAnswer": "3",
         "Notes": "",
-        "Question": "Which of the following benefits are MOST likely to be achieved by using test tools? <br>i)	Easy to access information about tests and testing.  <br>ii)	Reduced maintenance of testware. <br>iii)	Easy and cheap to implement. <br>iv)	Greater consistency of tests. "
+        "Question": "Which of the following benefits are MOST likely to be achieved by using test tools?<br>i) Easy to access information about tests and testing. <br>ii)Reduced maintenance of testware.<br>iii) Easy and cheap to implement.<br>iv) Greater consistency of tests. "
 },
 {"keyid":1,
         "Option1": "Preventative tests and reactive tests are designed as early as possible.",
