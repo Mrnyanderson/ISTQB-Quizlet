@@ -171,7 +171,7 @@
         "Option4": "4",
         "CorrectAnswer": "3",
         "Notes": "Statement coverage is just the execution of every statement.",
-        "Question": "If the pseudo code below were a programming language ,how many tests are required to achieve 100% statement coverage? <br>1.If x=3 then<br>2.Display_messageX;<br>3.If y=2 then<br>4.Display_messageY;<br>5.Else<br>6.Display_messageZ;<br>7.Else<br>8.Display_messageZ;"
+        "Question": "<h4>If the pseudo code below were a programming language ,how many tests are required to achieve 100% statement coverage? <br>1.If x=3 then<br>2.Display_messageX;<br>3.If y=2 then<br>4.Display_messageY;<br>5.Else<br>6.Display_messageZ;<br>7.Else<br>8.Display_messageZ;</h4>"
     },    {
         "keyid":1,
         "Option1": "State-Transition.",
@@ -270,7 +270,7 @@
         "Option4": "10,21,22",
         "CorrectAnswer": "3",
         "Notes": "There are 3 partitions:10>x, 10=<x<=21, and x>=21.",
-        "Question": "A program validates a numeric field as follows: <br> values less than 10 are rejected, values between 10 and 21 are accepted, values greater than or equal to 22 are rejected <br> Which of the following input values cover all of the equivalence partitions?"
+        "Question": "<h3>A program validates a numeric field as follows: <br> values less than 10 are rejected, values between 10 and 21 are accepted, values greater than or equal to 22 are rejected <br> Which of the following input values cover all of the equivalence partitions?</h3>"
     },    {
         "keyid":1,
         "Option1": "9,10,11,22",
@@ -279,7 +279,7 @@
         "Option4": "10,11,20,21",
         "CorrectAnswer": "2",
         "Notes": "There are 3 partitions:10>x, 10=<x<=21, and x>=21.",
-        "Question": "A program validates a numeric field as follows: <br> values less than 10 are rejected, values between 10 and 21 are accepted, values greater than or equal to 22 are rejected <br> which of the following covers the MOST boundary values?"
+        "Question": "<h3>A program validates a numeric field as follows: <br> values less than 10 are rejected, values between 10 and 21 are accepted, values greater than or equal to 22 are rejected <br> which of the following covers the MOST boundary values?</h3>"
     },    {
         "keyid":2,
         "Option1": "Data tester.",
@@ -396,7 +396,7 @@
         "Option4": "Not achievable",
         "CorrectAnswer": "1",
         "Notes": "Statement coverage just requires the paths that execute a statement, not the paths that do not execute the statement.",
-        "Question": "How many test cases are necessary to cover all the possible sequences of statements (paths) for the following program fragment? Assume that the two conditions are independent of each other:<br> if (Condition 1) <br>then<br> statement 1 <br>else<br> statement 2<br> fi <br>if (Condition 2) <br>then <br>statement 3 fi"
+        "Question": "<h4>How many test cases are necessary to cover all the possible sequences of statements (paths) for the following program fragment? Assume that the two conditions are independent of each other:<br> if (Condition 1) <br>then<br> statement 1 <br>else<br> statement 2<br> fi <br>if (Condition 2) <br>then <br>statement 3 fi</h4>"
     },    {
         "keyid":2,
         "Option1": "Statement and branch testing ",
@@ -459,7 +459,7 @@
         "Option4": "All of them are valid reasons for failure",
         "CorrectAnswer": "4",
         "Notes": "All of the factors could potentially cause a failure.",
-        "Question": "Which of the following could be a reason for a failure:<br>1)Testing fault<br>2)Software fault<br>3)Design fault<br>4)Environment Fault<br>5) Documentation Fault"
+        "Question": "<h4>Which of the following could be a reason for a failure:<br>1)Testing fault<br>2)Software fault<br>3)Design fault<br>4)Environment Fault<br>5) Documentation Fault </h4>"
     },    {
         "keyid":2,
         "Option1": "You shorten the time required for testing.",
@@ -549,7 +549,7 @@
         "Option4": "I, II and IV are correct.",
         "CorrectAnswer": "3",
         "Notes": "Inegration testing is done <b><i>before system testing</i></b>.",
-        "Question": "Integration testing has following characteristics:<br>I. It can be done in incremental manner<br>II. It is always done after system testing.<br>III. It includes functional tests.<br>IV. It includes non-functional tests."
+        "Question": "<h3>Integration testing has following characteristics:<br>I. It can be done in incremental manner<br>II. It is always done after system testing.<br>III. It includes functional tests.<br>IV. It includes non-functional tests.</h3>"
     },    {
         "keyid":2,
         "Option1": "A walkthrough does not follow a defined process.",
@@ -594,7 +594,7 @@
         "Option4": "(I), (III) and (V) are correct.",
         "CorrectAnswer": "2",
         "Notes": "All of those aspects can influence how testing is carried out.",
-        "Question": "Which of the following project inputs influence testing?<br>(I) Contractual requirements<br>(II) Legal requirements<br>(III) Industry standards<br>(IV) Application risk<br>(V) Project size"
+        "Question": "<h3>Which of the following project inputs influence testing?<br>(I) Contractual requirements<br>(II) Legal requirements<br>(III) Industry standards<br>(IV) Application risk<br>(V) Project size</h3>"
     },    {
         "keyid":2,
         "Option1": "Identification (Software and hardware) of the VCR",
@@ -603,7 +603,7 @@
         "Option4": "Ideas for the test case improvement",
         "CorrectAnswer": "1",
         "Notes": "The report doesn't specify what kind of hardware or software was being used during the test.",
-        "Question": "A test engineer is testing a Video Player (VCR), and logs the following report:<br>Title: Fast Forward stops after 2 minutes. It happens every time<br>Expected result: Fast forward continues till the end of the tape<br>Severity: High<br>Priority: Urgent"
+        "Question": "<h4>A test engineer is testing a Video Player (VCR), and logs the following report:<br>Title: Fast Forward stops after 2 minutes. It happens every time<br>Expected result: Fast forward continues till the end of the tape<br>Severity: High<br>Priority: Urgent</h4>"
     },    {
         "keyid":2,
         "Option1": "Testing management.",
@@ -693,7 +693,7 @@
         "Option4": "1",
         "CorrectAnswer": "2",
         "Notes": "Decision coverage involves cases for conditional and unconditional branches.",
-        "Question": "Given the following fragment of code, how many tests are required for 100% decision coverage?<br>if width > length<br>then<br>biggest_dimension = width<br>if height > width<br>then<br>biggest_dimension = height<br>end_if<br>else biggest_dimension= length<br>if height > length<br>then<br>biggest_dimension = height<br>end_if<br>end_if"
+        "Question": "<h4>Given the following fragment of code, how many tests are required for 100% decision coverage?<br>if width > length<br>then<br>biggest_dimension = width<br>if height > width<br>then<br>biggest_dimension = height<br>end_if<br>else biggest_dimension= length<br>if height > length<br>then<br>biggest_dimension = height<br>end_if<br>end_if</h4>"
     },    {
         "keyid":2,
         "Option1": "One more test case will be required for 100 % decision coverage.",
@@ -702,7 +702,7 @@
         "Option4": "One more test case will be required for 100% statement coverage.",
         "CorrectAnswer": "3",
         "Notes": "The new code doesn't affect the existing decision structures.",
-        "Question": "You have designed test cases to provide 100% statement and 100% decision coverage for the following fragment of code.<br>if width > length<br>then<br>biggest_dimension = width<br>else<br>biggest_dimension = length<br>end_if<br>The following has been added to the bottom of the code fragment above.<br>print 'Biggest dimension is ' & biggest_dimension<br>print 'Width: ' & width<br>print 'Length: ' & length<br>How many more test cases are required?"
+        "Question": "<h4>You have designed test cases to provide 100% statement and 100% decision coverage for the following fragment of code.<br>if width > length<br>then<br>biggest_dimension = width<br>else<br>biggest_dimension = length<br>end_if<br>The following has been added to the bottom of the code fragment above.<br>print 'Biggest dimension is ' & biggest_dimension<br>print 'Width: ' & width<br>print 'Length: ' & length<br>How many more test cases are required?</h4>"
     },    {
         "keyid":2,
         "Option1": "15, 19 and 25.",
@@ -711,7 +711,7 @@
         "Option4": "16, 26 and 32.",
         "CorrectAnswer": "1",
         "Notes": "The equivalence partitions are x<18, 18<=x>21, x<=21",
-        "Question": "A thermometer measures temperature in whole degrees only. If the temperature falls below 18 degrees, the heating is switched off. It is switched on again when the temperature reaches 21 degrees. What are the best values in degrees to cover all equivalence partitions?"
+        "Question": "<h3>A thermometer measures temperature in whole degrees only. If the temperature falls below 18 degrees, the heating is switched off. It is switched on again when the temperature reaches 21 degrees. What are the best values in degrees to cover all equivalence partitions?</h3>"
     },    {
         "keyid":2,
         "Option1": "Implementation and execution.",
@@ -747,7 +747,7 @@
         "Option4": "iii.",
         "CorrectAnswer": "2",
         "Notes": "Regression testing is used after changes to ensure fixes didn't break existing functionality. Due to its tedious nature, it is frequently automated to save time/effort/money.",
-        "Question": "Which of the following are characteristic of regression testing?<br>i) Regression testing is run ONLY once.<br>ii) Regression testing is used after fixes have been made.<br>iii) Regression testing is often automated.<br>iv) Regression tests need not be maintained."
+        "Question": "<h3>Which of the following are characteristic of regression testing?<br>i) Regression testing is run ONLY once.<br>ii) Regression testing is used after fixes have been made.<br>iii) Regression testing is often automated.<br>iv) Regression tests need not be maintained.</h3>"
     },    {
         "keyid":2,
         "Option1": "5, 6, 20",
@@ -756,7 +756,7 @@
         "Option4": "1, 20, 100",
         "CorrectAnswer": "3",
         "Notes": "4,5 and 99 cover 3/4 boundary values listed, but 3/3 of the listed equivalence partition.",
-        "Question": "A wholesaler sells printer cartridges. The minimum order quantity is 5. There is a 20% discount for orders of 100 or more printer cartridges. You have been asked to prepare test cases using various values for the number of printer cartridges orders. Which of the following groups contain three test inputs that would be generated using Boundary Value Analysis?"
+        "Question": "<h4>A wholesaler sells printer cartridges. The minimum order quantity is 5. There is a 20% discount for orders of 100 or more printer cartridges. You have been asked to prepare test cases using various values for the number of printer cartridges orders. Which of the following groups contain three test inputs that would be generated using Boundary Value Analysis?</h4>"
     },    {
         "keyid":2,
         "Option1": "i, ii, iii.",
@@ -765,7 +765,7 @@
         "Option4": "i, ii, iv.",
         "CorrectAnswer": "4",
         "Notes": "When selecting a test tool, research must be made before implementation, as incorrect implementation/use of a tool can be a hinderance to the project.",
-        "Question": "Which of the following activities should be performed during the selection and implementation of a testing tool?<br>i) Investigate the organization’s test process.<br>ii) Conduct a proof of concept.<br>iii) Implement the selected tool on a project behind schedule to save time.<br>iv) Identify coaching and mentoring requirements for the use of the selected tool."
+        "Question": "<h4>Which of the following activities should be performed during the selection and implementation of a testing tool?<br>i) Investigate the organization’s test process.<br>ii) Conduct a proof of concept.<br>iii) Implement the selected tool on a project behind schedule to save time.<br>iv) Identify coaching and mentoring requirements for the use of the selected tool.</h4>"
     },    {
         "keyid":2,
         "Option1": "It is cheaper than designing tests during the test phases",
@@ -783,7 +783,7 @@
         "Option4": "i and iii.",
         "CorrectAnswer": "3",
         "Notes": "Test tools will require more maintenance, and are very expensive to implement, however, their benefits will pay off after a period of time.",
-        "Question": "Which of the following benefits are MOST likely to be achieved by using test tools? i) Easy to access information about tests and testing. ii) Reduced maintenance of testware. iii) Easy and cheap to implement. iv) Greater consistency of tests."
+        "Question": "<h3>Which of the following benefits are MOST likely to be achieved by using test tools? i) Easy to access information about tests and testing. ii) Reduced maintenance of testware. iii) Easy and cheap to implement. iv) Greater consistency of tests.</h3>"
     },    {
         "keyid":2,
         "Option1": "Preventative tests and reactive tests are designed as early as possible.",
@@ -812,4 +812,6 @@
         "Notes": "Risk is determined by the probability of a negative event happening multiplied by the impact if it occurs.",
         "Question": "What determines the level of risk?"
     }
+
+    
 ]
